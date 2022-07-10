@@ -1,0 +1,18 @@
+import "./App.css";
+import Card from "./components/Card";
+import Navbar from "./components/Navbar";
+import { allData } from "./data";
+
+function App() {
+  const cards = allData.data.map((item) => {
+    return <Card key={item.id} {...item} />;
+  });
+  return (
+    <>
+      <Navbar />
+      <section className="cards-list">{cards}</section>
+    </>
+  );
+}
+
+export default App;

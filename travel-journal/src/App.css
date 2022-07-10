@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav {
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f55a5a;
+}
+
+.nav--title {
+  color: white;
+  font-weight: lighter;
+  padding-left: 10px;
+}
+
+.card {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.card--image {
+  width: 126px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card--text {
+  padding-left: 20px;
+}
+
+.card--country {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.card--pin {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.card--link {
+  font-weight: lighter;
+  color: grey;
+  text-transform: none;
+}
